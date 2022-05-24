@@ -1,0 +1,264 @@
+
+
+/* ====== GERAL ============ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+/* ====== MENU ============ */
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  padding-left: 40px;
+  background-color: black;
+  
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 20px;
+  
+}
+
+.cabecalho-menu-item {
+  color: aliceblue;
+  justify-content: space-between;
+  
+}  
+
+/* ====== HOME ============ */
+
+.cabecalho-conteudo-home-img {
+  height: 400px;
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 20px;
+}
+
+.cabecalho-conteudo-home-titulo {
+  background-color: red;
+  color: aliceblue;
+  text-align: center;
+  
+}
+
+.conteudo-home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 70px;
+}
+
+.conteudo-home-img {
+  padding-top: 40px;
+  padding-left: 150px;
+  padding-bottom: 20px; 
+
+}
+
+.conteudo-home-escrito {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.conteudo-home-escrito-paragrafo {
+    width: 70%;
+    text-align: justify;
+}
+
+.conteudo-home-botao {
+  background-color: rgb(236, 214, 196);
+  width: 80px;
+  height: 50px;
+  border: none;
+  box-shadow: 4px 5px 4px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 250%;
+  color: black;
+}
+
+/* ====== GAMES ============ */
+
+.cabecalho-conteudo-games-titulo {
+  background-color: green;
+  color: aliceblue;
+  text-align: center;
+}
+
+.conteudo-games-principal {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+  justify-content: space-around;
+  gap: 70px;
+}
+
+.conteudo-games-img {
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+
+   padding-top: 30px;
+   padding-left: 50px;
+}
+
+.conteudo-games-escrito-paragrafo {
+    width: 100%;
+    text-align:center;
+    
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.conteudo-games-botao {
+  padding-right: 150px;
+
+  background-color: rgb(236, 214, 196);
+  width: 20px;
+  height: 40px;
+  border: none;
+  box-shadow: 4px 5px 4px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 200%;
+  color: black;
+}
+
+/* ====== MOVIES ============ */
+
+.cabecalho-conteudo-movies-titulo {
+  background-color: green;
+  color: aliceblue;
+  text-align: center;
+}
+
+.conteudo-movies {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 70px;
+}
+
+.conteudo-movies-img {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  
+  width: 500px;
+
+}
+
+.conteudo-movies-escrito {
+   display: flex;
+   flex-direction: column;
+   gap: 40px;
+}
+
+.conteudo-movies-escrito-paragrafo {
+    width: 70%;
+    text-align: justify;
+}
+
+.conteudo-movies-botao {
+  background-color: rgb(236, 214, 196);
+  width: 80px;
+  height: 50px;
+  border: none;
+  box-shadow: 4px 5px 4px;
+  border-radius: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-align: center;
+  line-height: 250%;
+  color: black;
+}
+
+
+/* ====== VIDEO ============ */
+
+.cabecalho-conteudo-video-titulo {
+  background-color: blueviolet;
+  color: aliceblue;
+  text-align: center;
+}
+
+.conteudo-video {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 70px;
+}
+
+.conteudo-video-video {
+  padding-top: 20px;
+  padding-left: 200px;
+  padding-bottom: 20px; 
+
+}
+
+.conteudo-video-escrito-paragrafo {
+    width: 70%;
+    text-align: justify;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.conteudo-video-botao {
+  background-color: rgb(236, 214, 196);
+  width: 900px;
+  height: 200px;
+  border: none;
+  box-shadow: 4px 5px 4px;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  line-height: 100%;
+  color: black;
+
+
+}
+
+/* ====== FOOTER ============ */
+
+.rodape-escrito-paragrfo {
+
+  background-color: black;
+  color: aliceblue;
+
+  padding-top: 30px;
+  padding-bottom: 20px;
+
+  text-align: center;
+  line-height: 50%;
+
+}
+
+
+
